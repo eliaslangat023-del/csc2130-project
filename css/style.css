@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f7fb; color: #222; line-height: 1.6; }
+header { background: #12355b; color: white; padding: 24px 8%; }
+nav a { color: white; text-decoration: none; margin-right: 22px; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+main { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+section, aside { background: white; padding: 24px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 8px #0001; }
+h1, h2 { margin-top: 0; }
+footer { text-align: center; padding: 20px; background: #12355b; color: white; margin-top: 40px; }
