@@ -5,7 +5,7 @@ Student Records Management System
 
 ## Student Information
 - Name: Elias Kipkorir
-- Registration Number: YOUR REGISTRATION NUMBER
+- Registration Number: COM/0005/25
 - Course: CSC2130 – Introduction to Web Development
 
 ## Project Description
