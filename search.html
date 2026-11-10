@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Student - Student Records Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Search Student Records</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="register.html">Register Student</a>
+        <a href="search.html">Search Student</a>
+        <a href="records.html">Student Records</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Find a Student</h2>
+
+        <p>
+            Enter a student's name or identification number
+            to search for their records.
+        </p>
+
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Student Search Details</legend>
+
+                <label for="searchby">Search By:</label>
+                <select id="searchby" name="searchby" required>
+                    <option value="">Select search method</option>
+                    <option value="studentid">Student ID</option>
+                    <option value="fullname">Student Name</option>
+                </select>
+
+                <label for="searchterm">Search Term:</label>
+                <input type="text" id="searchterm" name="searchterm"
+                       placeholder="Enter student ID or name" required>
+
+                <button type="submit">Search Student</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Student Records Management System. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
